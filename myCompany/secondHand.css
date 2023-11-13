@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgray;
+}
+.mod{
+    font-size:xx-large;
+    font-family: cinzel;
+    color: rgb(230, 133, 6);
+    text-align: center;
+    padding: 0.em;
+
+}
+dt, dd{
+    margin-top: 2em;
+}
+span{
+    font-weight: bold;
+    font-family: inherit;
+}
+.cabecalho {
+    background: rgb(231, 188, 46);
+    border-bottom: solid 5px #141414;
+    height: 80px;
+}
+ .msgfem{
+    display: block;
+    font-family: cinzel;
+    margin: 2px;
+    padding: 3px;
+ }
+.logo {
+    display: inline-block;
+    height: 80px;
+    padding: 15px;
+}
+
+.logo img {
+    height: 100%;
+}
+#logo{
+    object-fit: scale-down;
+}
+
+.menu-toggle {
+    float: right;
+    color: #0a0a0a;
+    background-color: #0c0c0c;
+    border: solid 1px #777;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 20px 15px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #080808;
+    font-size: 1.3em;
+}
+
+.menu a {
+    padding: 15px;
+}
+
+.autenticacao {
+    float: right;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu a:hover,
+.menu a.selected {
+    background-color: #db8e4f;
+    color: #f3eded;
+}
+
+.botao {
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 10px;
+}
+
+.destaque {
+    background: rgba(241, 6, 6, 0.815);
+    color: #f50505;
+}
+.span{
+    font-weight: 700;
+    font-size: 1.7em;
+    margin-left: 1.6em;
+}
+footer{
+    height: 100px;
+}
+
+#footer-top,
+#footer-top i{
+    padding: 1% 5%;
+    color: rgb(244, 247, 250);
+}
+
+@media(min-width: 679px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+@media(max-width: 680px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media(max-width: 910px) {
+    .autenticacao {
+        display: none;
+    }
+}
+.pagina img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+#mulher{
+    width: 100%;
+}
+

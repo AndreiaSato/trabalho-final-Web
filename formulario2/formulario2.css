@@ -1,0 +1,41 @@
+
+body{
+    padding: 2% 10%;
+    
+}
+#titulo{
+    font-family: sans-serif;
+    color: rgb(240, 113, 68);
+    background-color: beige;
+
+
+}
+h6{
+    font-size:xx-small;
+    font-family: sans-serif;
+}
+#botao{
+    box-shadow: 2px 2px 2px 2px black;
+    text-shadow: 1px 1px 1px 1px;;
+
+}
+#botao:hover{
+    background: rgb(240, 113, 68);
+}
+
+.numero::-webkit-inner-spin-button, .cpf::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+#subtitulo{
+    font-size: medium;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+
+
+
